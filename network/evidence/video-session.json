@@ -1,0 +1,16 @@
+[
+  {
+    "kind": "http",
+    "frame": 8,
+    "utc": "2026-11-05T23:00:32.335Z",
+    "threshold": 10,
+    "response": "{\"device\":\"nexasense-lab-01\",\"temperature\":24.0,\"humidity\":50.0,\"threshold\":10.0,\"alert\":true}"
+  },
+  {
+    "kind": "http",
+    "frame": 19,
+    "utc": "2026-11-05T23:00:44.159Z",
+    "threshold": 30,
+    "response": "{\"device\":\"nexasense-lab-01\",\"temperature\":24.0,\"humidity\":50.0,\"threshold\":30.0,\"alert\":false}"
+  }
+]

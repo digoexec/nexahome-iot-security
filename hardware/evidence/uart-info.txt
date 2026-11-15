@@ -1,0 +1,12 @@
+Captura real da UART virtual
+UTC: 2026-11-05T22:55:37.978590+00:00
+Comando enviado: INFO\n
+
+device=nexasense-lab-01
+firmware=1.0.0-lab
+internal_config=LAB_ONLY_CONFIG_nao_e_segredo_real
+transport=HTTP sem TLS
+update=USB UART por recompilacao; sem OTA
+{"device":"nexasense-lab-01","temperature":24.0,"humidity":50.0,"threshold":30.0,"alert":false}
+{"device":"nexasense-lab-01","temperature":24.0,"humidity":50.0,"threshold":30.0,"alert":false}
+{"device":"nexasense-lab-01","temperature":24.0,"humidity":50.0,"threshold":30.0,"alert":false}

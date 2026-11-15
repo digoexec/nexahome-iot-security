@@ -1,0 +1,59 @@
+0x0000132a  NexaSense LAB: /telemetry /debug /config?threshold=30
+0x000013ce  ,"threshold":
+0x000013f7  threshold
+0x00001401  Use threshold entre 0 e 80
+0x0000142b  CONFIG sem autenticacao: threshold=%.1f
+0x0000147a  transport=HTTP sem TLS
+0x00001491  update=USB UART por recompilacao; sem OTA
+0x000014bd  === NexaSense laboratorio autorizado ===
+0x000014e6  UART: digite INFO para repetir o diagnostico.
+0x00001531  WiFi indisponivel. UART e sensor continuam funcionando.
+0x00001569  /debug
+0x00001578  HTTP pronto. Acesso local: http://localhost:8180/telemetry
+0x000015e7  @Wokwi-GUEST
+0x000015f4  LAB_ONLY_CONFIG_nao_e_segredo_real
+0x00001617  1.0.0-lab
+0x00001621  nexasense-lab-01
+0x0000255b  HTTP Version not supported
+0x00002576  HTTP/1.
+0x00002da2  [%6u][E][%s:%u] %s(): Unknown HTTP Method: %s
+0x00002fab  [%6u][E][%s:%u] %s():  -- UART%d Event Task not Created!
+0x00003071  [%6u][E][%s:%u] %s(): UART driver failed to start. Please check the logs.
+0x00003901  [%6u][E][%s:%u] %s(): UART%d failed to attach RX pin %d
+0x0000393b  [%6u][E][%s:%u] %s(): UART%d failed to attach TX pin %d
+0x00003975  [%6u][E][%s:%u] %s(): UART%d failed to attach CTS pin %d
+0x000039b0  [%6u][E][%s:%u] %s(): UART%d failed to attach RTS pin %d
+0x000039eb  [%6u][E][%s:%u] %s(): UART%d set pins failed.
+0x00003a1b  [%6u][E][%s:%u] %s(): UART number is invalid, please use number from 0 to %u
+0x00003a9f  [%6u][E][%s:%u] %s(): UART%d changing baudrate failed.
+0x00003ad8  [%6u][E][%s:%u] %s(): UART%d changing data length failed.
+0x00003b14  [%6u][E][%s:%u] %s(): UART%d changing parity failed.
+0x00003b4b  [%6u][E][%s:%u] %s(): UART%d changing stop bits failed.
+0x00003b85  [%6u][E][%s:%u] %s(): UART%d changing RX pin failed.
+0x00003bbc  [%6u][E][%s:%u] %s(): UART%d changing TX pin failed.
+0x00004620  E (%u) %s: %s(%d): empty intr threshold error
+0x00004700  !(is_rs485_mode && disabled && uart_hal_get_intraw_mask(&(uart_context[uart_num].hal)) & UART_INTR_TX_DONE)
+0x000048bf  E (%u) %s: UART driver malloc error
+0x000048e4  E (%u) %s: UART driver already installed
+0x00004918  E (%u) %s: %s(%d): rx fifo full threshold value error
+0x000049c4  uart_set_rx_full_threshold
+0x0000e0cf  ESP_ERR_HTTP_BASE
+0x0000e0e1  ESP_ERR_HTTP_MAX_REDIRECT
+0x0000e0fb  ESP_ERR_HTTP_CONNECT
+0x0000e110  ESP_ERR_HTTP_WRITE_DATA
+0x0000e128  ESP_ERR_HTTP_FETCH_HEADER
+0x0000e142  ESP_ERR_HTTP_INVALID_TRANSPORT
+0x0000e161  ESP_ERR_HTTP_CONNECTING
+0x0000e179  ESP_ERR_HTTP_EAGAIN
+0x0000e18d  ESP_ERR_HTTP_CONNECTION_CLOSED
+0x0000e5fe  ESP_ERR_HTTPS_OTA_BASE
+0x0000e615  ESP_ERR_HTTPS_OTA_IN_PROGRESS
+0x0000e675  ESP_ERR_HTTPD_BASE
+0x0000e688  ESP_ERR_HTTPD_HANDLERS_FULL
+0x0000e6a4  ESP_ERR_HTTPD_HANDLER_EXISTS
+0x0000e6c1  ESP_ERR_HTTPD_INVALID_REQ
+0x0000e6db  ESP_ERR_HTTPD_RESULT_TRUNC
+0x0000e6f6  ESP_ERR_HTTPD_RESP_HDR
+0x0000e70d  ESP_ERR_HTTPD_RESP_SEND
+0x0000e725  ESP_ERR_HTTPD_ALLOC_MEM
+0x0000e73d  ESP_ERR_HTTPD_TASK

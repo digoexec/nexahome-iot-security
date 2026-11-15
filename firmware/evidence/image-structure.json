@@ -1,0 +1,40 @@
+{
+  "magic": "0xe9",
+  "segment_count": 5,
+  "spi_mode": 2,
+  "entry_address": "0x40082bbc",
+  "size": 790368,
+  "sha256": "6f3ae6bae975276b08ecf8ada3550972f1d85b58174ffaea9916c7df2b52927f",
+  "segments": [
+    {
+      "index": 0,
+      "header_offset": "0x18",
+      "load_address": "0x3f400020",
+      "size": 110652
+    },
+    {
+      "index": 1,
+      "header_offset": "0x1b05c",
+      "load_address": "0x3ffbdb60",
+      "size": 20404
+    },
+    {
+      "index": 2,
+      "header_offset": "0x20018",
+      "load_address": "0x400d0020",
+      "size": 578472
+    },
+    {
+      "index": 3,
+      "header_offset": "0xad3c8",
+      "load_address": "0x3ffc2b14",
+      "size": 4140
+    },
+    {
+      "index": 4,
+      "header_offset": "0xae3fc",
+      "load_address": "0x40080000",
+      "size": 76596
+    }
+  ]
+}

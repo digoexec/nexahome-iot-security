@@ -1,0 +1,38 @@
+[
+  {
+    "step": "01-before",
+    "utc": "2026-11-05T22:55:57.350104+00:00",
+    "request": "GET /telemetry HTTP/1.1\r\nHost: localhost:8180\r\nConnection: close\r\n\r\n",
+    "response": "HTTP/1.1 200 OK\r\nContent-Type: application/json\r\nContent-Length: 95\r\nConnection: close\r\n\r\n{\"device\":\"nexasense-lab-01\",\"temperature\":24.0,\"humidity\":50.0,\"threshold\":30.0,\"alert\":false}"
+  },
+  {
+    "step": "02-debug",
+    "utc": "2026-11-05T22:55:57.634436+00:00",
+    "request": "GET /debug HTTP/1.1\r\nHost: localhost:8180\r\nConnection: close\r\n\r\n",
+    "response": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 159\r\nConnection: close\r\n\r\ndevice=nexasense-lab-01\nfirmware=1.0.0-lab\ninternal_config=LAB_ONLY_CONFIG_nao_e_segredo_real\ntransport=HTTP sem TLS\nupdate=USB UART por recompilacao; sem OTA\n"
+  },
+  {
+    "step": "03-change",
+    "utc": "2026-11-05T22:55:57.897567+00:00",
+    "request": "GET /config?threshold=10 HTTP/1.1\r\nHost: localhost:8180\r\nConnection: close\r\n\r\n",
+    "response": "HTTP/1.1 200 OK\r\nContent-Type: application/json\r\nContent-Length: 94\r\nConnection: close\r\n\r\n{\"device\":\"nexasense-lab-01\",\"temperature\":24.0,\"humidity\":50.0,\"threshold\":10.0,\"alert\":true}"
+  },
+  {
+    "step": "04-after",
+    "utc": "2026-11-05T22:55:58.408866+00:00",
+    "request": "GET /telemetry HTTP/1.1\r\nHost: localhost:8180\r\nConnection: close\r\n\r\n",
+    "response": "HTTP/1.1 200 OK\r\nContent-Type: application/json\r\nContent-Length: 94\r\nConnection: close\r\n\r\n{\"device\":\"nexasense-lab-01\",\"temperature\":24.0,\"humidity\":50.0,\"threshold\":10.0,\"alert\":true}"
+  },
+  {
+    "step": "05-invalid",
+    "utc": "2026-11-05T22:55:58.739456+00:00",
+    "request": "GET /config?threshold=abc HTTP/1.1\r\nHost: localhost:8180\r\nConnection: close\r\n\r\n",
+    "response": "HTTP/1.1 400 Bad Request\r\nContent-Type: text/plain\r\nContent-Length: 14\r\nConnection: close\r\n\r\nValor invalido"
+  },
+  {
+    "step": "06-restore",
+    "utc": "2026-11-05T22:55:59.038534+00:00",
+    "request": "GET /config?threshold=30 HTTP/1.1\r\nHost: localhost:8180\r\nConnection: close\r\n\r\n",
+    "response": "HTTP/1.1 200 OK\r\nContent-Type: application/json\r\nContent-Length: 95\r\nConnection: close\r\n\r\n{\"device\":\"nexasense-lab-01\",\"temperature\":24.0,\"humidity\":50.0,\"threshold\":30.0,\"alert\":false}"
+  }
+]

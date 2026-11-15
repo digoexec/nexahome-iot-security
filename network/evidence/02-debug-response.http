@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 159
+Connection: close
+
+device=nexasense-lab-01
+firmware=1.0.0-lab
+internal_config=LAB_ONLY_CONFIG_nao_e_segredo_real
+transport=HTTP sem TLS
+update=USB UART por recompilacao; sem OTA

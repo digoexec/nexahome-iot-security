@@ -1,0 +1,10 @@
+[wokwi]
+version = 1
+firmware = 'firmware/original/firmware.bin'
+elf = 'firmware/original/firmware.elf'
+rfc2217ServerPort = 4000
+
+# Acesso somente ao dispositivo virtual do laboratorio.
+[[net.forward]]
+from = "localhost:8180"
+to = "target:80"

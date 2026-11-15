@@ -1,0 +1,6 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 95
+Connection: close
+
+{"device":"nexasense-lab-01","temperature":24.0,"humidity":50.0,"threshold":30.0,"alert":false}

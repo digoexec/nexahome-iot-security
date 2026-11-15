@@ -1,0 +1,12 @@
+SHA-256 | tamanho em bytes | arquivo
+Origem: Primeira compilacao local do firmware educacional NexaSense criado para esta atividade. Nao e imagem obtida de produto comercial nem dump fisico.
+Preservado UTC: 2026-11-05T22:53:56.018950+00:00
+
+6f3ae6bae975276b08ecf8ada3550972f1d85b58174ffaea9916c7df2b52927f | 790368 | firmware/original/firmware.bin
+accca4677affb2ddf0f05b045a1b75ffc68ec097963dbfba726a5e018635239b | 11737872 | firmware/original/firmware.elf
+3d234a7471f67b013686dabd4dee7c1fa915c9928463616a94bc9297acf1abf8 | 17536 | firmware/original/bootloader.bin
+148b959cbff1c38aa8e1d5c0ba9d612c54997b945e56a63f41223eef650653a1 | 3072 | firmware/original/partitions.bin
+2bf56d82096498a0e79c90e78ceba25aed9c8d3107da2eca57e0e02773485756 | 4132 | firmware/original/main.cpp
+3a697225d19e42d4e8b4c4fe3d091737ef3aa335f4f3e97f8d8761c4d0dd2e7e | 194 | firmware/original/platformio.ini
+99714c6432e722655c2177bd9ed3aa865d8a5d42a535f48adf8a47954c71d69a | 1135 | firmware/original/diagram.json
+b17002251372d6dd35f30fd65889eec79bc5731fe27701758ec1856e07764a13 | 242 | firmware/original/wokwi.toml

@@ -1,0 +1,1 @@
+PASS: HTTP real sem Authorization e sem TLS; configuracao alterada de 30 para 10; alerta false -> true; entrada invalida rejeitada; limite restaurado para 30.

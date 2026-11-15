@@ -1,0 +1,188 @@
+{
+  "method": "Capturas diretas reais da janela do VS Code com Wokwi, aproximadamente um quadro por segundo; intervalos preservados na codificacao.",
+  "edits": "Identificacao da conta ocultada no cabecalho e faixa inferior de notificacoes recortada. Sem animacao sintetica do circuito.",
+  "capture_log": [
+    {
+      "kind": "frame",
+      "file": "frame-000.png",
+      "elapsed_ms": 1051,
+      "utc": "2026-11-05T23:00:24.170Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-001.png",
+      "elapsed_ms": 2095,
+      "utc": "2026-11-05T23:00:25.214Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-002.png",
+      "elapsed_ms": 3157,
+      "utc": "2026-11-05T23:00:26.276Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-003.png",
+      "elapsed_ms": 4214,
+      "utc": "2026-11-05T23:00:27.333Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-004.png",
+      "elapsed_ms": 5263,
+      "utc": "2026-11-05T23:00:28.382Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-005.png",
+      "elapsed_ms": 6265,
+      "utc": "2026-11-05T23:00:29.384Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-006.png",
+      "elapsed_ms": 7340,
+      "utc": "2026-11-05T23:00:30.459Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-007.png",
+      "elapsed_ms": 8345,
+      "utc": "2026-11-05T23:00:31.464Z"
+    },
+    {
+      "kind": "http",
+      "frame": 8,
+      "utc": "2026-11-05T23:00:32.335Z",
+      "threshold": 10,
+      "response": "{\"device\":\"nexasense-lab-01\",\"temperature\":24.0,\"humidity\":50.0,\"threshold\":10.0,\"alert\":true}"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-008.png",
+      "elapsed_ms": 9608,
+      "utc": "2026-11-05T23:00:32.727Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-009.png",
+      "elapsed_ms": 10705,
+      "utc": "2026-11-05T23:00:33.824Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-010.png",
+      "elapsed_ms": 11861,
+      "utc": "2026-11-05T23:00:34.980Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-011.png",
+      "elapsed_ms": 12960,
+      "utc": "2026-11-05T23:00:36.079Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-012.png",
+      "elapsed_ms": 14010,
+      "utc": "2026-11-05T23:00:37.129Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-013.png",
+      "elapsed_ms": 15003,
+      "utc": "2026-11-05T23:00:38.122Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-014.png",
+      "elapsed_ms": 16071,
+      "utc": "2026-11-05T23:00:39.190Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-015.png",
+      "elapsed_ms": 17079,
+      "utc": "2026-11-05T23:00:40.198Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-016.png",
+      "elapsed_ms": 18118,
+      "utc": "2026-11-05T23:00:41.237Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-017.png",
+      "elapsed_ms": 19150,
+      "utc": "2026-11-05T23:00:42.269Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-018.png",
+      "elapsed_ms": 20198,
+      "utc": "2026-11-05T23:00:43.317Z"
+    },
+    {
+      "kind": "http",
+      "frame": 19,
+      "utc": "2026-11-05T23:00:44.159Z",
+      "threshold": 30,
+      "response": "{\"device\":\"nexasense-lab-01\",\"temperature\":24.0,\"humidity\":50.0,\"threshold\":30.0,\"alert\":false}"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-019.png",
+      "elapsed_ms": 21444,
+      "utc": "2026-11-05T23:00:44.563Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-020.png",
+      "elapsed_ms": 22587,
+      "utc": "2026-11-05T23:00:45.706Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-021.png",
+      "elapsed_ms": 23620,
+      "utc": "2026-11-05T23:00:46.739Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-022.png",
+      "elapsed_ms": 24623,
+      "utc": "2026-11-05T23:00:47.742Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-023.png",
+      "elapsed_ms": 25645,
+      "utc": "2026-11-05T23:00:48.764Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-024.png",
+      "elapsed_ms": 26772,
+      "utc": "2026-11-05T23:00:49.891Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-025.png",
+      "elapsed_ms": 27774,
+      "utc": "2026-11-05T23:00:50.893Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-026.png",
+      "elapsed_ms": 28844,
+      "utc": "2026-11-05T23:00:51.963Z"
+    },
+    {
+      "kind": "frame",
+      "file": "frame-027.png",
+      "elapsed_ms": 29930,
+      "utc": "2026-11-05T23:00:53.049Z"
+    }
+  ]
+}

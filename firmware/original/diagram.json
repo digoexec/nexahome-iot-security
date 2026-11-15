@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "author": "Laboratorio NexaSense",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-dht22", "id": "dht", "top": -2, "left": 240, "attrs": { "temperature": "24", "humidity": "50" } },
+    { "type": "wokwi-led", "id": "led", "top": 170, "left": 245, "attrs": { "color": "red", "label": "Alerta" } },
+    { "type": "wokwi-resistor", "id": "r1", "top": 220, "left": 180, "attrs": { "value": "330" } },
+    { "type": "wokwi-resistor", "id": "r2", "top": -55, "left": 210, "attrs": { "value": "10000" } }
+  ],
+  "connections": [
+    ["esp:TX0", "$serialMonitor:RX", "", []],
+    ["esp:RX0", "$serialMonitor:TX", "", []],
+    ["esp:3V3", "dht:VCC", "red", ["h60", "v-30"]],
+    ["esp:GND.1", "dht:GND", "black", ["h40", "v30"]],
+    ["esp:D15", "dht:SDA", "green", ["h90", "v-15"]],
+    ["esp:3V3", "r2:1", "red", ["v-60"]],
+    ["r2:2", "dht:SDA", "green", ["h30"]],
+    ["esp:D2", "r1:1", "orange", ["v40"]],
+    ["r1:2", "led:A", "orange", []],
+    ["led:C", "esp:GND.1", "black", ["h45", "v70"]]
+  ],
+  "dependencies": {}
+}

@@ -1,0 +1,15 @@
+* text=auto eol=lf
+
+# Preservar os bytes das imagens originais e das capturas de laboratorio.
+firmware/original/** -text -whitespace
+firmware/working/** -text -whitespace
+firmware/evidence/** -text -whitespace
+hardware/evidence/** -text -whitespace
+network/evidence/** -text -whitespace
+
+*.bin binary
+*.elf binary
+*.pdf binary
+*.png binary
+*.mp4 binary
+*.zip binary

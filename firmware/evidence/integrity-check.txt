@@ -1,0 +1,8 @@
+OK firmware/original/firmware.bin
+OK firmware/original/firmware.elf
+OK firmware/original/bootloader.bin
+OK firmware/original/partitions.bin
+OK firmware/original/main.cpp
+OK firmware/original/platformio.ini
+OK firmware/original/diagram.json
+OK firmware/original/wokwi.toml
