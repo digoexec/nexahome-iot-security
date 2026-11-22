@@ -93,6 +93,6 @@ Principais problemas investigados: diagnóstico excessivo, configuração sem au
 
 Relatório: [avaliação técnica em PDF](output/relatorio-nexasense.pdf). Vídeo: [Vídeo Pitch - IOT](https://youtu.be/lZMVH22fPeQ), com duração inferior a quatro minutos. O trecho de execução usa capturas reais da janela do VS Code, aproximadamente um quadro por segundo, com os intervalos preservados. O LED foi observado desligado, ligado e novamente desligado após a restauração. A identificação da conta foi ocultada no cabeçalho. O registro de origem está em `hardware/evidence/video-provenance.json`.
 
-O projeto, o firmware preservado e as evidências são entregues neste repositório. O relatório PDF e o vídeo MP4 podem ser baixados diretamente pelos links acima. Se a instituição exigir uma plataforma de streaming, o vídeo pode ser publicado como não listado e o link acrescentado aqui.
+O projeto, o firmware preservado e as evidências são entregues neste repositório. O relatório PDF pode ser baixado diretamente pelo link acima. Quanto ao vídeo Pitch, está acessível via youtube no link mencionado acima.
 
 As referências e o caso real estão em [references.md](references.md). A cobertura de cada requisito está em [requirements-checklist.md](requirements-checklist.md).
