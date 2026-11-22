@@ -93,6 +93,6 @@ Principais problemas investigados: diagnóstico excessivo, configuração sem au
 
 Relatório: [avaliação técnica em PDF](output/relatorio-nexasense.pdf). Vídeo: [demonstração legendada](output/demonstracao-nexasense.mp4), com duração inferior a quatro minutos. O trecho de execução usa capturas reais da janela do VS Code, aproximadamente um quadro por segundo, com os intervalos preservados. O LED foi observado desligado, ligado e novamente desligado após a restauração. A identificação da conta foi ocultada no cabeçalho. O registro de origem está em `hardware/evidence/video-provenance.json`.
 
-Pacote para entrega: [nexahome-iot-security.zip](output/nexahome-iot-security.zip), contendo projeto, firmware preservado, evidências, relatório e vídeo. O MP4 também pode ser baixado diretamente pelo link acima. Se a instituição exigir uma plataforma de streaming, o aluno pode publicar o vídeo como não listado e acrescentar o link aqui.
+O projeto, o firmware preservado e as evidências são entregues neste repositório. O relatório PDF e o vídeo MP4 podem ser baixados diretamente pelos links acima. Se a instituição exigir uma plataforma de streaming, o vídeo pode ser publicado como não listado e o link acrescentado aqui.
 
 As referências e o caso real estão em [references.md](references.md). A cobertura de cada requisito está em [requirements-checklist.md](requirements-checklist.md).
