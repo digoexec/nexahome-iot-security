@@ -10,6 +10,7 @@ network/evidence/** -text -whitespace
 *.bin binary
 *.elf binary
 *.pdf binary
+*.docx binary
 *.png binary
 *.mp4 binary
 *.zip binary
